@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "biggercaves",
+  "version": "${version}",
+
+  "name": "Bigger Caves",
+  "description": "The underground just got a lot wider..",
+  "authors": [
+    "brian_flakes"
+  ],
+  "contact": {
+    "homepage": "https://minecraft.curseforge.com/projects/bigger-caves",
+    "sources": "https://github.com/briansemrau/Bigger-Caves"
+  },
+
+  "license": "MIT",
+  "icon": "assets/biggercaves/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.briansemrau.biggercaves.BiggerCavesMod"
+    ]
+  },
+  "mixins": [
+    "biggercaves.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

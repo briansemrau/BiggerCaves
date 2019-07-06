@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.github.briansemrau.biggercaves.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "CaveCarverMixin",
+    "RavineCarverMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
